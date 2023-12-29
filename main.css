@@ -56,8 +56,19 @@ button img {
     width: 24px;
 }
 
+li {
+    background-color: #E8F0FE;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-block: 8px;
+    background-color : #E8F0FE ;
+    padding: 8px;
+    border: 1px solid #608596;
+    word-wrap: break-word;
+}
+
 ul li {
-    margin-top: 24px;
+    margin-top: 10px;
     list-style: none;
     /*remover as bolinhas das imagens*/
     font-size: 15px;
@@ -66,6 +77,7 @@ ul li {
 ul img {
     width: 16px;
     float: right;
+    margin-right: 2px;
 }
 
 .container {
