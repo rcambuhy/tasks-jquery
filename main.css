@@ -6,19 +6,27 @@
 }
 
 body {
+    height: 100%;
     background-color: #d1ebf7;
 }
 
 header {
-    margin-top: 24px;
+    margin-top: 36px;
+    margin-bottom: 10px;
     display: block;
     justify-content: center;
     align-items: center;
 }
 
-header img {
-    width: 200px;
-    margin-left: 8px;
+header h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+header h1 img {
+    width: 36px;
+    margin-left: 24px;
 }
 
 form {
@@ -61,10 +69,9 @@ li {
     border-radius: 10px;
     padding-left: 8px;
     padding-block: 8px;
-    background-color : #E8F0FE ;
+    background-color : #E8F0FE;
     padding: 8px;
     border: 1px solid #608596;
-    word-wrap: break-word;
 }
 
 ul li {
@@ -72,18 +79,36 @@ ul li {
     list-style: none;
     /*remover as bolinhas das imagens*/
     font-size: 15px;
+    cursor: pointer;
 }
 
 ul img {
     width: 16px;
     float: right;
     margin-right: 2px;
+    cursor: pointer;
 }
 
 .container {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 260px;
-    margin-left: 24px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background {
+    position: fixed;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.background img {
+    margin-top: 150px;
 }
